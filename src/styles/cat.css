@@ -1,0 +1,28 @@
+.wrapper {
+  text-align: center;
+}
+
+button {
+  background: rgb(126, 221, 162);
+  border: none;
+  border-radius: none;
+  padding: 1em;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  animation: fadeIn s ease-in-out;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
